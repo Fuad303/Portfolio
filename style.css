@@ -381,7 +381,7 @@ body a:hover{
     padding: 7px 14px;
     border-radius: 50%;
   }
-  #myBtn i{
+  #myBtn svg{
     background-color: transparent;
   }
   
