@@ -13,8 +13,12 @@
     <!-- Font Awasome -->
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
     <!-- Font Awasome -->
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- AOS -->
 </head>
 <body>
+    <div class="body">
      <!----Nav Section---->
      <div class="nav">
         <div class="container-fluid">
@@ -59,7 +63,7 @@
     </div>
     <!-- End of ToolBar -->
     <!-- Main Section -->
-    <div class="introduce">
+    <div data-aos="fade-up" class="introduce">
         <div class="container">
             <h6>Hi, my name is</h6>
             <h2>Fuad Sadıqov</h2>
@@ -69,12 +73,12 @@
     </div>
     <div id="about" class="about">
         <div class="container">
-            <div class="title">
+            <div data-aos="fade-down" class="title">
                 <h6>01.</h6>
                 <span>About Me</span>
             </div>
             <div class="row col-12">
-                <div class="about-info col-md-6 col-12">
+                <div data-aos="fade-right" class="about-info col-md-6 col-12">
                     Hello! My name is Fuad and I enjoy creating things 
                     that live on the internet. My interest in web development 
                     started back in 2022.<br><br>
@@ -87,7 +91,7 @@
                         <li>Bootstrap</li>
                     </ul>
                 </div>
-                <div class="about-img col-md-6 col-12">
+                <div data-aos="fade-left" class="about-img col-md-6 col-12">
                     <img src="/images/image0.jpeg" alt="">
                 </div>
             </div>
@@ -95,16 +99,16 @@
     </div>
     <div id="portfolio" class="portfloio">
         <div class="container">
-            <div class="title">
+            <div data-aos="fade-down" class="title">
                 <h6>02.</h6>
                 <span>Some things I've built</span>
             </div>
             <div class="portfloio-wrapper">
                 <div class="portfloio-item row col-12">
-                    <div class="portfloio-img col-md-6 col-12">
+                    <div data-aos="fade-right" class="portfloio-img col-md-6 col-12">
                         <a href="https://sobsan.netlify.app"><img src="/images/sobsan.png"></a>
                     </div>
-                    <div class="portfloio-info col-md-6 col-12">
+                    <div data-aos="fade-left" class="portfloio-info col-md-6 col-12">
                         <p>Featured Project</p>
                         <a href="https://sobsan.netlify.app"><h4>Sobsan</h4></a>
                         <span>HTML CSS Jquery Bootstrap JavaScript</span>
@@ -115,7 +119,7 @@
                     </div>
                 </div>
                 <div class="portfloio-item row col-12">
-                    <div class="portfloio-info col-md-6 col-12">
+                    <div data-aos="fade-right" class="portfloio-info col-md-6 col-12">
                         <p>Featured Project</p>
                         <a href="https://luckydesignaz.netlify.app"><h4>Lucky</h4></a>
                         <span>HTML CSS Bootstrap JavaScript</span>
@@ -124,15 +128,15 @@
                             <a href="https://luckydesignaz.netlify.app"><img src="/images/share.svg" alt=""></a>
                         </div>
                     </div>
-                    <div class="portfloio-img col-md-6 col-12">
+                    <div data-aos="fade-left" class="portfloio-img col-md-6 col-12">
                         <a href="https://luckydesignaz.netlify.app"><img src="/images/los.png"></a>
                     </div>
                 </div>
                 <div class="portfloio-item row col-12">
-                    <div class="portfloio-img col-md-6 col-12">
+                    <div data-aos="fade-right" class="portfloio-img col-md-6 col-12">
                         <a href="https://baskent.netlify.app/"><img src="/images/baskent.png"></a>
                     </div>
-                    <div class="portfloio-info col-md-6 col-12">
+                    <div data-aos="fade-left" class="portfloio-info col-md-6 col-12">
                         <p>Featured Project</p>
                         <a href="https://baskent.netlify.app/"><h4>Baskent</h4></a>
                         <span>HTML CSS Jquery Bootstrap JavaScript</span>
@@ -143,7 +147,7 @@
                     </div>
                 </div>
                 <div class="portfloio-item row col-12">
-                    <div class="portfloio-info col-md-6 col-12">
+                    <div data-aos="fade-right" class="portfloio-info col-md-6 col-12">
                         <p>Featured Project</p>
                         <a href="https://lalicoffeeshop.netlify.app/"><h4>Coffeeshop</h4></a>
                         <span>HTML CSS Bootstrap JavaScript</span>
@@ -152,7 +156,7 @@
                             <a href="https://lalicoffeeshop.netlify.app/"><img src="/images/share.svg" alt=""></a>
                         </div>
                     </div>
-                    <div class="portfloio-img col-md-6 col-12">
+                    <div data-aos="fade-left" class="portfloio-img col-md-6 col-12">
                         <a href="https://lalicoffeeshop.netlify.app"><img src="/images/coffeeshop.png"></a>
                     </div>
                 </div>
@@ -161,7 +165,7 @@
     </div>
     <div id="contact" class="contact">
         <div class="container">
-            <div class="contact-title">
+            <div data-aos="fade-up" class="contact-title">
                 <p>0.3 Contact</p>
                 <h3>Get In Touch</h3>
                 <span>
@@ -178,5 +182,10 @@
      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
      <!-- End of Top button -->
     <script src="/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</div>
 </body>
 </html>

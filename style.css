@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #0a192F;
     font-family: var(--font-mono);
     transition: 0.4s all;
 }
@@ -15,6 +14,9 @@
     --font-sans: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
     --font-mono: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     --main-color:  #4ac0ab; 
+}
+.body{
+    background-color: #0a192F;
 }
 body a,
 body a:hover{
@@ -315,11 +317,11 @@ body a:hover{
     .portfloio-info{
         text-align: center;
         margin-top: 24px;
-        margin-bottom: 30px;
     }
     .portfloio-info:nth-child(2n+1){
         margin-top: 0;
         text-align: center;
+        margin-bottom: 30px;
     }
 }
 /* Contact */
@@ -356,6 +358,10 @@ body a:hover{
     border-radius: 4px;
     font-family: var(--font-mono);
     margin-bottom: 200px;
+    background-color: transparent;
+}
+.contact-title button:hover{
+    background-color: #4ac0aa13;
 }
 .end{
     text-align: center;
