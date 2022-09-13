@@ -90,6 +90,7 @@ body a:hover{
 	}
 	.nav__icon {
 		display: block;
+        cursor: pointer;
 	}
     .nav__icon img{
         color: #4ac0ab;
@@ -219,7 +220,7 @@ body a:hover{
 }
 /* About CSS */
 .about{
-    padding-top: 280px;
+    padding-top: 180px;
     padding-bottom: 100px;
 }
 .title h6{
@@ -270,6 +271,9 @@ body a:hover{
     .about-img img{
         display: flex;
         justify-content: center;
+    }
+    .about{
+        margin-top: 450px;
     }
 }
 /* Portfloio */
@@ -326,7 +330,7 @@ body a:hover{
 }
 /* Contact */
 .contact{
-    padding-top: 260px;
+    padding-top: 190px;
 }
 .contact-title{
     text-align: center;
