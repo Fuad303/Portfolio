@@ -68,7 +68,7 @@ body a:hover{
     border: 1px solid var(--main-color);
     border-radius: 6px;
     color: var(--main-color);
-    padding: 4px 20px;
+    padding: 4px 30px;
 }
 .cv:hover{
     background-color: #4ac0aa13;
@@ -105,7 +105,7 @@ body a:hover{
 		display: block;
 		position: absolute;
 		color: var(--black-2);
-		right: 1rem;
+		left: 1rem;
 		top: 1rem;
 		cursor: pointer;
 	}
@@ -115,23 +115,27 @@ body a:hover{
 		left: 0;
 		top: 0;
 		height: 100vh;
-		width: 60%;
+		width: 70%;
 		background: #112240;
 		display: flex;
 		align-items: center;
-		justify-content: flex-end;
-		padding-right: 2rem;
+		justify-content: flex-start;
+		padding-left: 0.5rem;
 		transform: translate(-100%);
 		overflow: hidden;
 		transition: 0.3s ease-in transform;
 	}
+    .cv{
+        margin-top: 10px;
+        padding: 4px 50px;
+    }
 	.nav__list.show {
 		transform: translate(0%);
 	}
 	.nav__list li {
 		display: block;
-		text-align: right;
-        margin-bottom: 15px;
+		text-align: left;
+        margin-bottom: 10px;
 	}
     .nav__link p{
         display: block;
@@ -213,7 +217,7 @@ body a:hover{
     color: #8892b0;
     font-size: clamp(20px, 4vw, 40px);
     font-family: var(--font-sans);
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .int-btn{
     padding: 10px 50px;
