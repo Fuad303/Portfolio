@@ -17,6 +17,7 @@
 }
 .body{
     background-color: #0a192F;
+    overflow-x: hidden;
 }
 body a,
 body a:hover{
@@ -86,7 +87,6 @@ body a:hover{
 @media only screen and (max-width: 768px) {
 	.nav {
 		position: relative;
-		/* overflow-x: scroll; */
 	}
 	.nav__icon {
 		display: block;

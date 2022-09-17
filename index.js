@@ -7,7 +7,7 @@ const navOpen = () =>
 {
     navList.classList.add('show');
     navBgOverlayEl.classList.add('active');
-    document.body.style='visibility: visible, height: 100vh; width: 100vw; overflow: auto;';
+    document.body.style='visibility: visible, height: 100vh; width: 100vw; overflow-x: hidden;';
 }
 const navClose = () =>
 {
