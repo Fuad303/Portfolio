@@ -224,7 +224,7 @@ body a:hover{
 }
 /* About CSS */
 .about{
-    padding-top: 180px;
+    padding-top: 300px;
     padding-bottom: 100px;
 }
 .title h6{
@@ -264,7 +264,7 @@ body a:hover{
     width: 70%;
     height: 100%;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 10px;
     filter: grayscale(1);
 }
 .about-img img:hover,
@@ -277,7 +277,7 @@ body a:hover{
         justify-content: center;
     }
     .about{
-        margin-top: 450px;
+        margin-top: 280px;
     }
 }
 /* Portfloio */
