@@ -285,8 +285,11 @@ body a:hover{
     padding-top: 160px;
 }
 .portfloio-item{
+    display: flex;
+    justify-content: space-between;
     margin-top: 100px;
 }
+
 .portfloio-img{
     max-width: 400px;
     max-height: 400px;
@@ -324,13 +327,19 @@ body a:hover{
 @media (max-width: 768px){
     .portfloio-info{
         text-align: center;
-        margin-top: 24px;
+        margin-bottom: 24px;
     }
     .portfloio-info:nth-child(2n+1){
         margin-top: 0;
         text-align: center;
-        margin-bottom: 30px;
     }
+    .portfloio-item:nth-child(2n+1){
+        flex-direction: column-reverse;
+    }
+    .portfloio-item:nth-child(even){
+        flex-direction: column;
+    }
+        
 }
 /* Contact */
 .contact{
