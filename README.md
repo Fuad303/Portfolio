@@ -1,1 +1,1 @@
-Site's URL:fuadsadiqov.netlify.app
+Site's URL:https://fuadsadiqov.netlify.app
