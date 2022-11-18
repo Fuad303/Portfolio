@@ -391,6 +391,18 @@ body a:hover{
 .end a{
     color: var(--main-color);
 }
+.footer-social{
+    display: none;
+    
+}
+@media (max-width: 768px){
+    .footer-social{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding-bottom: 20px;
+    }
+}
 /* Top Button Styles */
 #myBtn {
     display: none;
